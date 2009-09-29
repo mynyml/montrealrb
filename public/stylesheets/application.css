@@ -25,6 +25,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a:focus {
+  outline: none
+}
 
 h1 {
   text-align: center;
