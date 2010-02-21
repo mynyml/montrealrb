@@ -3,7 +3,9 @@
     .name
       = member["name"]
       = member["nick"]
-    .homepage= member["homepage"]
+    - if member["site"]
+      .site
+        %a{:href => member["site"]}= member["site"]
   %ul.projects
     - member.fetch("projects", []).each do |info|
       - [*info].each do |name, url|  # makes it work for straight strings, hashes, ...

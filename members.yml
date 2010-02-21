@@ -11,7 +11,7 @@ Aanand Prasad:
 
 Alexis Sellier:
   github: cloudhead
-  site: http://cloudhead.net/
+  site: http://cloudhead.net
   projects:
   - less
   - toto
@@ -29,7 +29,7 @@ Daniel Haran:
 
 François Beausoleil:
   github: francois
-  site: http://blog.teksol.info/
+  site: http://blog.teksol.info
   projects:
   - piston
   - cliaws
@@ -38,7 +38,7 @@ François Beausoleil:
 
 James Golick:
   github: giraffesoft
-  site: http://jamesgolick.com/
+  site: http://jamesgolick.com
   projects:
   - resource_controller
   - is_taggable
@@ -70,7 +70,7 @@ Marc-André Cournoyer:
 
 Marc-André Lafortune:
   github: marcandre
-  site: http://blog.marc-andre.ca/
+  site: http://blog.marc-andre.ca
   projects:
   - backports
   - swf_fu
@@ -98,7 +98,7 @@ Martin Carel:
 
 Delano Mandelbaum:
   github: delano
-  site: http://solutious.com/
+  site: http://solutious.com
   projects:
   - stella      : http://github.com/solutious/stella
   - rudy        : http://github.com/solutious/rudy
@@ -107,7 +107,7 @@ Delano Mandelbaum:
 
 Mathieu Martin:
   github: webmat
-  site: http://programblings.com/
+  site: http://programblings.com
   projects:
   - git_remote_branch
 
@@ -129,7 +129,7 @@ Vinh Tran:
 
 Gary Haran:
   github: garyharan
-  site: http://garyharan.com/
+  site: http://garyharan.com
   nick: (bringing front end greatness)
   projects:
   - jQuery smart position       : http://github.com/garyharan/jquery-clonePosition-utilities
