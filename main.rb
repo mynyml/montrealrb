@@ -1,3 +1,8 @@
+require 'rubygems'
 require 'sinatra'
+require 'yaml'
+require 'haml'
 
-get('/') { erb :index }
+MEMBERS = YAML::load_file("members.yml")
+
+get('/') { haml :index }

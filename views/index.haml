@@ -1,0 +1,12 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+%meta{'http-equiv' => 'Content-Type', 'content' => "text/html;charset=UTF-8"}
+  %head
+    %title Montreal.rb
+    %link(href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css")
+
+  %body
+    %h1 Montreal.rb
+    %ul#members
+    - MEMBERS.sort.each do |name, info|
+      = haml :member, :locals => {:member => info.merge('name' => name)}

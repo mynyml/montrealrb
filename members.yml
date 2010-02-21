@@ -1,0 +1,138 @@
+--- 
+Aanand Prasad:
+  github: aanand
+  site: http://aanandprasad.com
+  projects:
+  - deadweigh
+  - feepogram
+  - 1901
+  - do_notation
+  - cmon
+
+Alexis Sellier:
+  github: cloudhead
+  site: http://cloudhead.net/
+  projects:
+  - less
+  - toto
+  - mutter
+  - cradle
+
+Daniel Haran:
+  github: danielharan
+  site: http://danielharan.com
+  projects:
+  - semantic-menu
+  - hintly_client
+  - biximo
+  - hansard_scraper
+
+François Beausoleil:
+  github: francois
+  site: http://blog.teksol.info/
+  projects:
+  - piston
+  - cliaws
+  - gip
+  - clitt
+
+James Golick:
+  github: giraffesoft
+  site: http://jamesgolick.com/
+  projects:
+  - resource_controller
+  - is_taggable
+  - observational
+  - enum_field
+  - timeline_fu
+
+Jonathan Palardy:
+  github: jpalardy
+  site: http://technotales.wordpress.com
+  projects:
+  - etc_config
+  - booklife
+  - forgetful
+
+Marc-André Cournoyer:
+  github: macournoyer
+  site: http://macournoyer.com
+  nick: (Best Coder Eva)
+  projects:
+  - Create Your Programing Language: http://createyourproglang.com
+  - thin                           
+  - tinyrb                         
+  - min                            
+  - invisible                      
+  - pusher                         
+  - rack-sandbox                   
+  - rbv8                           
+
+Marc-André Lafortune:
+  github: marcandre
+  site: http://blog.marc-andre.ca/
+  projects:
+  - backports
+  - swf_fu
+  - packable
+  - flvedit
+
+Martin Aumont:
+  github: mynyml
+  site: http://mynyml.com
+  projects:
+  - watchr
+  - nanotest
+  - every
+  - phocus
+  - simple_router
+  - rack-accept-media-types
+  - rack-respond_to
+
+Martin Carel:
+  github: cawel
+  site: http://dev-logger.blogspot.com
+  projects:
+  - le-tastevin.com: http://www.le-tastevin.com
+  - vinifera       
+
+Delano Mandelbaum:
+  github: delano
+  site: http://solutious.com/
+  projects:
+  - stella      : http://github.com/solutious/stella
+  - rudy        : http://github.com/solutious/rudy
+  - gibbler     
+  - tryouts     
+
+Mathieu Martin:
+  github: webmat
+  site: http://programblings.com/
+  projects:
+  - git_remote_branch
+
+Mina Naguib:
+  github: minaguib
+  projects:
+  - resourceful_parenting
+
+Sean Braithwaite:
+  github: brapse
+  site: http://d474.net
+  projects:
+  - ghosts
+
+Vinh Tran:
+  github: zelnox
+  projects:
+  - place-name-service
+
+Gary Haran:
+  github: garyharan
+  site: http://garyharan.com/
+  nick: (bringing front end greatness)
+  projects:
+  - jQuery smart position       : http://github.com/garyharan/jquery-clonePosition-utilities
+  - jQuery smart replace        : http://github.com/garyharan/jquery-replace-utilities
+  - jQuery smart caret          : http://github.com/garyharan/jQuery-caret-utilities
+  - Prototype.js Calendar       : http://github.com/garyharan/kalander
