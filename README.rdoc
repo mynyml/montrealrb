@@ -1,0 +1,7 @@
+= Montreal.rb's Community Driven Website
+
+This repository is deployed at http://montrealrb.org/
+
+== Making Changes
+
+Fork this repository, make your changes then notify {mynyml}[http://github.com/mynyml] with a pull request.
