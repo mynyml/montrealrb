@@ -58,4 +58,7 @@ h1 {
 .member .projects li {
   display: inline;
 }
-
+span.adgear {
+  position:absolute;
+  right:0;
+}
