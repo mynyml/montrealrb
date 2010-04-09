@@ -88,15 +88,17 @@ Marc-André Lafortune:
 Martin Aumont:
   github: mynyml
   site: http://mynyml.com
-  twitter:
+  twitter: mynyml
   projects:
   - watchr
+  - harmony
+  - holygrail
   - nanotest
   - every
   - phocus
-  - simple_router
-  - rack-accept-media-types
   - rack-respond_to
+  - rack-accept-media-types
+  - simple_router
 
 Martin Carel:
   github: cawel
