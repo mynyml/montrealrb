@@ -2,6 +2,7 @@
 Aanand Prasad:
   github: aanand
   site: http://aanandprasad.com
+  twitter:
   projects:
   - deadweigh
   - feepogram
@@ -12,6 +13,7 @@ Aanand Prasad:
 Alexis Sellier:
   github: cloudhead
   site: http://cloudhead.net
+  twitter: Cloudhead
   projects:
   - less
   - toto
@@ -21,6 +23,7 @@ Alexis Sellier:
 Daniel Haran:
   github: danielharan
   site: http://danielharan.com
+  twitter: Chebuctonian
   projects:
   - semantic-menu
   - hintly_client
@@ -30,6 +33,7 @@ Daniel Haran:
 François Beausoleil:
   github: francois
   site: http://blog.teksol.info
+  twitter: fbeausoleil
   projects:
   - piston
   - cliaws
@@ -39,6 +43,7 @@ François Beausoleil:
 James Golick:
   github: giraffesoft
   site: http://jamesgolick.com
+  twitter: jamesgolick
   projects:
   - resource_controller
   - is_taggable
@@ -49,6 +54,7 @@ James Golick:
 Jonathan Palardy:
   github: jpalardy
   site: http://technotales.wordpress.com
+  twitter: jpalardy
   projects:
   - etc_config
   - booklife
@@ -58,6 +64,7 @@ Marc-André Cournoyer:
   github: macournoyer
   site: http://macournoyer.com
   nick: (Best Coder Eva)
+  twitter: macournoyer
   projects:
   - Create Your Programing Language: http://createyourproglang.com
   - thin                           
@@ -71,6 +78,7 @@ Marc-André Cournoyer:
 Marc-André Lafortune:
   github: marcandre
   site: http://blog.marc-andre.ca
+  twitter: malafortune
   projects:
   - backports
   - swf_fu
@@ -80,6 +88,7 @@ Marc-André Lafortune:
 Martin Aumont:
   github: mynyml
   site: http://mynyml.com
+  twitter:
   projects:
   - watchr
   - nanotest
@@ -92,6 +101,7 @@ Martin Aumont:
 Martin Carel:
   github: cawel
   site: http://dev-logger.blogspot.com
+  twitter: cawel
   projects:
   - le-tastevin.com: http://www.le-tastevin.com
   - vinifera       
@@ -99,6 +109,7 @@ Martin Carel:
 Delano Mandelbaum:
   github: delano
   site: http://solutious.com
+  twitter: solutious
   projects:
   - stella      : http://github.com/solutious/stella
   - rudy        : http://github.com/solutious/rudy
@@ -108,22 +119,26 @@ Delano Mandelbaum:
 Mathieu Martin:
   github: webmat
   site: http://programblings.com
+  twitter: webmat
   projects:
   - git_remote_branch
 
 Mina Naguib:
   github: minaguib
+  twitter: minaguib
   projects:
   - resourceful_parenting
 
 Sean Braithwaite:
   github: brapse
   site: http://d474.net
+  twitter:
   projects:
   - ghosts
 
 Vinh Tran:
   github: zelnox
+  twitter:
   projects:
   - place-name-service
 
@@ -131,6 +146,7 @@ Gary Haran:
   github: garyharan
   site: http://garyharan.com
   nick: (bringing front end greatness)
+  twitter: xutopia
   projects:
   - jQuery smart position       : http://github.com/garyharan/jquery-clonePosition-utilities
   - jQuery smart replace        : http://github.com/garyharan/jquery-replace-utilities
@@ -141,3 +157,12 @@ Tadatoshi Takahashi:
   github: tadatoshi
   projects:
   - tokyo_wrapper
+  
+Carl Mercier:
+  github: cmer
+  projects:
+  - beanstalk_watcher
+  - landscape
+  - postbin.rb
+  - git-p4-sync
+  - ec2-extra-tools

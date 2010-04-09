@@ -1,4 +1,61 @@
-/* Resets */
+body {
+	background: #19273A;
+	font: 12pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #C2D7FF;
+	margin: 0;
+}
+
+#header {
+	background: #CB1921;
+	padding: 10px;
+	color: #fff;
+	border-bottom: 1px solid #CB4349;
+	margin-bottom: 5px;
+	text-shadow: 2px 2px 0 rgba(0,0,0,.7);
+}
+
+#header h1 {
+  margin: 10px;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+
+#header p {
+  margin: 10px;
+}
+
+img#logo {
+  left: 30px;
+  display:none;
+}
+
+#page {
+  padding: 40px 10px 10px 10px;
+  background: #2E496D;
+  padding-bottom: 40px;
+  border-top: 1px solid #41679A;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  padding: 3px;
+  background: #41679a;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: medium none;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,1);
+  
+}
+a:active {
+  text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}
+a:hover {
+    background: #19273a;
+}
+
 
 ul,ol {
   list-style: none;
@@ -6,59 +63,32 @@ ul,ol {
   padding: 0;
 }
 
-/* App Styles */
-
-body {
-  background: white;
-  width: 798px;
-  margin: 0 auto;
-  margin-top: 10px;
-  color: #555;
-  font-size: 85%;
-  /*font-family: "verdana";*/
-}
-
-a {
-  color: #39f;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:focus {
-  outline: none
-}
-
-h1 {
-  text-align: center;
-}
-#members {
-  margin-top: 30px;
-}
 .member {
   text-align: left;
   padding: 15px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #aaa;
   margin-bottom: 30px;
 }
-.member .details .site a {
-  color: #555;
+
+.member .details {
+  margin-bottom: 10px;
 }
-.member .details .name {
-  float: left;
-  margin: -27px 0 0 -10px;
-  padding: 0 10px;
-  background-color: white;
-  font-size: 100%;
+
+.member .details span.name {
+  font-size: 145%;
   font-weight: bold;
-  /*color: #36f;*/
+  text-shadow: 2px 2px 0 rgba(0,0,0,1);
 }
+
 .member .projects li {
-  display: inline;
+    display: inline;
+    margin: 5px;
 }
 span.adgear {
-  position:absolute;
-  right:0;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }

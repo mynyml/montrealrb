@@ -1,15 +1,16 @@
 %li.member
   .details
-    .name
+    %span.name
       = member["name"]
       = member["nick"]
+
     - if member["site"]
-      .site
-        %a{:href => member["site"]}= member["site"]
+      %a{:href => member["site"], :class => :memberlink}= member["site"]
+    - if member["twitter"]
+      %a{:href => "http://twitter.com/#{member["twitter"]}", :class => :memberlink}= "@#{member["twitter"].downcase}"
   %ul.projects
+    Projects:
     - member.fetch("projects", []).each do |info|
       - [*info].each do |name, url|  # makes it work for straight strings, hashes, ...
         %li
-          (
           %a{:href => url || "http://github.com/#{member['github']}/#{name}"}= name
-          )

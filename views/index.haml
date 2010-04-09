@@ -18,10 +18,21 @@
       ADGEAR.site_callbacks.variables = function() { return { }; }
 
   %body
-    %h1 Montreal.rb
+    %img#logo(src="logo.png")
+    #header
+      %h1 Montreal.rb
+      %p Montreal's Ruby Community
+
     %span.adgear
       %script{:type => "text/javascript"}
         ADGEAR.tags.script.embed({ "id": "248", "chip_key": "51e48a401bd5012d1d000024e87a30c2" });
-    %ul#members
-    - MEMBERS.sort.each do |name, info|
-      = haml :member, :locals => {:member => info.merge('name' => name)}
+      
+    #page
+      %ul#members
+        - MEMBERS.sort.each do |name, info|
+          = haml :member, :locals => {:member => info.merge('name' => name)}
+
+    #footer
+      This site is brought to you by the
+      %a(href="http://montrealonrails.com") Montreal.rb
+      dudes.
