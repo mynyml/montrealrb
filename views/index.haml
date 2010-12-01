@@ -7,15 +7,20 @@
 
     %script{:type => "text/javascript"}
       (function() {
-      var proto = window.location.protocol;
-      document.writeln('<scr' + 'ipt type="text/ja' + 'vascr' + 'ipt" s' + 'rc="' +
-      proto + '//a.staging.adgear.com/adgear.js/current/adgear.js' +
-      '"></scr' + 'ipt>');
+        var proto="http:", host="cdn.adgear.com", bucket="a";
+        if (window.location.protocol==="https:") {
+          proto = "https:";
+          host = "a.adgear.com";
+          bucket = "";
+        }
+        document.writeln('<scr' + 'ipt type="text/ja' + 'vascr' + 'ipt" s' + 'rc="' +
+            proto + '//' + host + '/' + bucket + '/adgear.js/current/adgear.js' +
+            '"></scr' + 'ipt>');
       })();
     %script{:type => "text/javascript"}
       ADGEAR.tags.script.init();
       ADGEAR.lang.namespace("ADGEAR.site_callbacks");
-      ADGEAR.site_callbacks.variables = function() { return { }; }
+      ADGEAR.site_callbacks.variables = function() { return {}; }
 
   %body
     %img#logo(src="logo.png")
@@ -25,7 +30,7 @@
 
     %span.adgear
       %script{:type => "text/javascript"}
-        ADGEAR.tags.script.embed({ "id": "248", "chip_key": "51e48a401bd5012d1d000024e87a30c2" });
+        ADGEAR.tags.script.embed({ "id": "12042", "chip_key": "fa130230df21012d2fb70024e87a30c2" });
 
     #page
       %ul#members
